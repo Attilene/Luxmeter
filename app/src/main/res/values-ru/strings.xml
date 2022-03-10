@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Люксметр</string>
+    <string name="about">О программе</string>
+    <string name="exit">Выход</string>
+    <string name="back">Назад</string>
+</resources>
