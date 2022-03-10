@@ -28,6 +28,7 @@ public class AboutActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.back) {
             startActivity(new Intent(this, MainActivity.class));
+            finish();
         } else {
             Toast.makeText(this, item.getTitle(), Toast.LENGTH_SHORT).show();
         }
